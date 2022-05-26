@@ -15,8 +15,7 @@ const Hero = () => {
         </h1>
 
         <p className="max-w-lg text-center text-white space-y-1 py-1 md:text-left">
-          Manage makes it simple for software team to plan day-to-day tasks
-          while keeping the larger team gaol in view
+        Rance Protocol is a decentralized price shield insurance provider offering long-term crypto holders the insurance of the major price swing of their holdings.
         </p>
 
         <div className="flex flex-col justify-center space-x-5 md:justify-start md:flex-row">
