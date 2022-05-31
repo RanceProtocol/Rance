@@ -6,7 +6,7 @@ import { GrGraphQl } from "react-icons/gr";
 const About = () => {
   return (
     <div>
-      <div className="container flex flex-col-reverse items-center justify-between mx-auto py-5 space-y-10 px-6 md:py-10 md:space-y-0 md:flex-row">
+      <div className="container flex flex-col items-center justify-between mx-auto py-5 space-y-10 md:px-6 md:py-10 md:space-y-0 md:flex-row">
         {/* First Item */}
         <div className="flex items-center space-x-4">
           <GrGraphQl
