@@ -1,5 +1,6 @@
 import React from "react";
-import Illustration from "../../../assets/Illustrations.png";
+// import Illustration from "../../../assets/Illustrations.png";
+import ranceanimated from "../../../assets/ranceanimated.gif";
 import Icon from "../../../assets/Icon.png";
 import Icon2 from "../../../assets/Icon2.png";
 import Icon3 from "../../../assets/Icon3.png";
@@ -14,7 +15,7 @@ const More = () => {
       <div className="container flex flex-col justify-between items-center md:py-10 md:px-10 mx-auto mt-10 space-y-5 md:space-y-0 md:flex-row">
         {/* Image */}
         <div>
-          <img src={Illustration} alt="illustration" />
+          <img src={ranceanimated} alt="ranceanimated" />
         </div>
 
         <div className="hidden px-20 md:flex">
