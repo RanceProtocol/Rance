@@ -6,6 +6,7 @@ import ranceanimated from "../../../assets/ranceanimated.gif";
 // import Icon3 from "../../../assets/Icon3.png";
 // import Table from "../../../assets/Table.png";
 // import Chart from "../../../assets/Chart.png";
+import download from "../../../assets/download.png";
 import { BsArrowRightCircleFill } from "react-icons/bs";
 // import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 
@@ -224,8 +225,7 @@ const More = () => {
             </h1>
 
             <p className="max-w-sm text-center text-white space-y-1 md:text-left">
-              Get full statistic information about the behaviour of buyers and
-              sellers will help you to make the decision.
+            Stabilise the crypto coin you hodl at your desired price with up to 2 years Insurance protection.
             </p>
 
             <div className="flex flex-col items-center justify-center space-x-5 md:justify-start md:flex-row">
@@ -250,7 +250,10 @@ const More = () => {
         <div className="flex flex-col items-center py-20">
           <h3 className="text-white max-w-4xl text-3xl font-bold text-center md:leading-snug md:text-5xl md:text-center">
             Partners
-          </h3>
+          </h3> 
+          <div id="partner-logo">
+            <img src={download} alt="partners" />
+          </div>
         </div>
       </div>
     </>
