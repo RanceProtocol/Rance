@@ -1,13 +1,13 @@
 import React from "react";
 // import Illustration from "../../../assets/Illustrations.png";
 import ranceanimated from "../../../assets/ranceanimated.gif";
-import Icon from "../../../assets/Icon.png";
-import Icon2 from "../../../assets/Icon2.png";
-import Icon3 from "../../../assets/Icon3.png";
-import Table from "../../../assets/Table.png";
-import Chart from "../../../assets/Chart.png";
+// import Icon from "../../../assets/Icon.png";
+// import Icon2 from "../../../assets/Icon2.png";
+// import Icon3 from "../../../assets/Icon3.png";
+// import Table from "../../../assets/Table.png";
+// import Chart from "../../../assets/Chart.png";
 import { BsArrowRightCircleFill } from "react-icons/bs";
-import { MdOutlineKeyboardArrowRight } from "react-icons/md";
+// import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 
 const More = () => {
   return (
@@ -77,7 +77,7 @@ const More = () => {
       {/* Gain Investment Return */}
       <div className="flex flex-col-reverse justify-center items-center mx-auto md:px-40 md:py-17 md:space-y-0 md:flex-row">
         {/* Left Content */}
-        <div className="flex flex-col mb-14 mt-10 md:mt-5 md:mb-32 space-y-5 md:w-1/2">
+        {/* <div className="flex flex-col mb-14 mt-10 md:mt-5 md:mb-32 space-y-5 md:w-1/2">
           <h1 className="text-white max-w-sm text-3xl font-bold text-center md:leading-snug md:text-4xl md:text-left">
             Gain Investment Returns
           </h1>
@@ -95,25 +95,25 @@ const More = () => {
               Get Started{" "}
             </a>
           </div>
-        </div>
+        </div> */}
 
         {/* Right Content */}
-        <div>
+        {/* <div>
           <img src={Table} alt="table-img" />
-        </div>
+        </div> */}
       </div>
 
       {/* Trade Securely */}
       <div>
-        <div className="flex flex-col items-center pb-10 md:py-20">
+        {/* <div className="flex flex-col items-center pb-10 md:py-20">
           <h3 className="text-white text-2xl font-bold text-center md:max-w-4xl md:leading-snug md:text-5xl md:text-center">
             Trade securely and market the high growth cryptocurrencies.
           </h3>
-        </div>
+        </div> */}
 
         <div className="flex items-center justify-center flex-col space-y-10 md:space-x-12 md:space-y-0 md:flex-row">
           {/* Item One */}
-          <div className="flex flex-col base-1/2 items-center py-5 rounded-2xl bg-gray-300 bg-opacity-25 md:p-6 md:py-6">
+          {/* <div className="flex flex-col base-1/2 items-center py-5 rounded-2xl bg-gray-300 bg-opacity-25 md:p-6 md:py-6">
             <div>
               <img src={Icon} alt="bitcoin-icon" />
             </div>
@@ -142,10 +142,10 @@ const More = () => {
                 />
               </a>
             </div>
-          </div>
+          </div> */}
 
           {/* Item Two */}
-          <div className="flex flex-col base-1/2 items-center px-5 py-5 rounded-2xl bg-gray-300 bg-opacity-25 md:p-6 md:py-6">
+          {/* <div className="flex flex-col base-1/2 items-center px-5 py-5 rounded-2xl bg-gray-300 bg-opacity-25 md:p-6 md:py-6">
             <div>
               <img src={Icon2} alt="bitcoin-icon" />
             </div>
@@ -172,10 +172,10 @@ const More = () => {
                 />
               </a>
             </div>
-          </div>
+          </div> */}
 
           {/* Item Three */}
-          <div className="flex flex-col base-1/2 items-center px-5 py-5 rounded-2xl bg-gray-300 bg-opacity-25 md:p-6 md:py-6">
+          {/* <div className="flex flex-col base-1/2 items-center px-5 py-5 rounded-2xl bg-gray-300 bg-opacity-25 md:p-6 md:py-6">
             <div>
               <img src={Icon3} alt="bitcoin-icon" />
             </div>
@@ -202,18 +202,18 @@ const More = () => {
                 />
               </a>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
 
       {/* Market Sentiment */}
       <div id="about">
-        <div className="flex flex-col items-center py-10 md:py-20">
+        {/* <div className="flex flex-col items-center py-10 md:py-20">
           <h3 className="text-white max-w-4xl text-3xl font-bold text-center md:leading-snug md:text-5xl md:text-center">
             Market sentiments, portfolio, and run the infrastructure of your
             choice
           </h3>
-        </div>
+        </div> */}
 
         {/* Invest Smart */}
         <div className="container flex flex-col-reverse items-center md:px-40 md:py-17 mx-auto space-y-0 md:space-y-0 md:flex-row">
@@ -239,9 +239,9 @@ const More = () => {
           </div>
 
           {/* Right Content */}
-          <div>
+          {/* <div>
             <img src={Chart} alt="chart-img" />
-          </div>
+          </div> */}
         </div>
       </div>
 
