@@ -1,6 +1,6 @@
 import React from "react";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
-import HeroGif from "../../../assets/hero-gif.gif";
+import HeroGif from "../../../assets/heroanime.gif";
 
 const Hero = () => {
   return (

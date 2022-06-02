@@ -15,7 +15,7 @@ const About = () => {
           />
 
           <div className="flex flex-col">
-            <h1 className="text-white text-3xl font-extrabold">130</h1>
+            <h1 className="text-white text-3xl font-extrabold">5</h1>
             <p className="text-white">Protocols Protected</p>
           </div>
         </div>
@@ -28,8 +28,8 @@ const About = () => {
           />
 
           <div className="flex flex-col">
-            <h1 className="text-white text-3xl font-extrabold">1M0+</h1>
-            <p className="text-white">Trusted Wallet Investor</p>
+            <h1 className="text-white text-3xl font-extrabold">1M+</h1>
+            <p className="text-white">Expected Global Investors</p>
           </div>
         </div>
 
@@ -41,7 +41,7 @@ const About = () => {
           />
 
           <div className="flex flex-col">
-            <h1 className="text-white text-3xl font-extrabold">195</h1>
+            <h1 className="text-white text-3xl font-extrabold">2</h1>
             <p className="text-white">Public Chain Covered</p>
           </div>
         </div>

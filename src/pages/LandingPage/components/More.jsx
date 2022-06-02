@@ -25,19 +25,22 @@ const More = () => {
         {/* Content */}
         <div className="flex flex-col mt-5 mb-32 space-y-5 md:w-1/2">
           <h1 className="text-white max-w-3xl md:max-w-lg text-3xl font-bold text-center md:text-6xl md:text-left">
-            Key your Assets Secure
+          Keep Your Assets Insured
           </h1>
 
           <p className="max-w-3xl md:max-w-sm text-center text-white space-y-1 md:text-left">
-            We provide reliable, robust, and secure insurance service to DeFi
-            users, allowing them to secure investment assets against various
-            risks.
+          We provide sustainable, reliable and robust insurance services to DeFi users, allowing them to protect their crypto investments and assets against various risks and price drop.
           </p>
 
           <div className="flex space-x-4">
             <BsArrowRightCircleFill className="text-primaryColor mt-1" />
-            <p className="text-white">Smart Contract Vulnerability</p>
+            <p className="text-white">Price Uncertainty</p>
           </div>
+
+          <div className="flex space-x-4">
+            <BsArrowRightCircleFill className="text-primaryColor mt-1" />
+            <p className="text-white">Bear Market Crash </p>
+            </div>
 
           <div className="flex space-x-4">
             <BsArrowRightCircleFill className="text-primaryColor mt-1" />
@@ -46,12 +49,7 @@ const More = () => {
 
           <div className="flex space-x-4">
             <BsArrowRightCircleFill className="text-primaryColor mt-1" />
-            <p className="text-white">IDO Event Risk</p>
-          </div>
-
-          <div className="flex space-x-4">
-            <BsArrowRightCircleFill className="text-primaryColor mt-1" />
-            <p className="text-white">Stablecoin Depeg Risk</p>
+            <p className="text-white">Coin/Token Unlimited Minting</p>
           </div>
 
           <div className="py-6">
@@ -72,8 +70,7 @@ const More = () => {
         </h3>
 
         <p className="max-w-xl text-center text-white text-lg space-y-1 mt-10">
-          We reward users who provide capital to underwrite insurance risks in
-          the underwriting pool with $INSUR tokens.
+        We reward users who stake $RANCE tokens with stablecoin revenue sharing generated from the protocol.
         </p>
       </div>
 
