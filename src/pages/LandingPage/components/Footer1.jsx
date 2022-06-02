@@ -1,10 +1,10 @@
 import React from "react";
 import Logo from "../../../assets/logorance.png";
-import Vector1 from "../../../assets/Vector1.png";
-import Vector2 from "../../../assets/Vector2.png";
-import Vector3 from "../../../assets/Vector3.png";
-import Vector4 from "../../../assets/Vector4.png";
-import Vector from "../../../assets/Vector.png";
+// import Vector1 from "../../../assets/Vector1.png";
+// import Vector2 from "../../../assets/Vector2.png";
+// import Vector3 from "../../../assets/Vector3.png";
+// import Vector4 from "../../../assets/Vector4.png";
+// import Vector from "../../../assets/Vector.png";
 
 const Footer1 = () => {
   return (
@@ -21,7 +21,7 @@ const Footer1 = () => {
               </a>
             </div>
 
-            <div className="base-1/2 flex-grow flex flex-wrap justify-center md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
+            {/* <div className="base-1/2 flex-grow flex flex-wrap justify-center md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
               <div className="lg:w-1/4 md:w-1/2 w-full px-4">
                 <h2 className="title-font font-bold text-white tracking-widest text-lg mb-3">
                   Quick Links
@@ -96,7 +96,7 @@ const Footer1 = () => {
                   </li>
                 </nav>
               </div>
-            </div>
+            </div> */}
           </div>
 
           {/* Footer Inner */}
@@ -115,9 +115,20 @@ const Footer1 = () => {
             </p>
 
             <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
-              <a
-                href="/"
+             {/* telegram */}
+             <a
+                href="https://t.me/RanceProtocol" target="_blank" rel="noreferrer"
                 className="text-white hover:text-gray-900 dark:hover:text-white"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-telegram" viewBox="0 0 16 16">
+                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z"/>
+              </svg>
+              </a>
+
+              {/* Twitter */}
+              <a
+                href="https://twitter.com/RanceProtocol" 
+                className="text-white hover:text-gray-900 dark:hover:text-white" target="_blank" rel="noreferrer"
               >
                 <svg
                   className="w-6 h-6"
@@ -125,16 +136,13 @@ const Footer1 = () => {
                   viewBox="0 0 24 24"
                   aria-hidden="true"
                 >
-                  <path
-                    fillRule="evenodd"
-                    d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
-                    clipRule="evenodd"
-                  ></path>
+                  <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"></path>
                 </svg>
               </a>
 
+              {/* Instagram */}
               <a
-                href="/"
+                href="https://instagram.com/ranceprotocol" target="_blank" rel="noreferrer"
                 className="text-white hover:text-gray-900 dark:hover:text-white"
               >
                 <svg
@@ -151,22 +159,11 @@ const Footer1 = () => {
                 </svg>
               </a>
 
-              <a
-                href="/"
-                className="text-white hover:text-gray-900 dark:hover:text-white"
-              >
-                <svg
-                  className="w-6 h-6"
-                  fill="currentColor"
-                  viewBox="0 0 24 24"
-                  aria-hidden="true"
-                >
-                  <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"></path>
-                </svg>
-              </a>
 
+              
+              {/* Github */}
               <a
-                href="/"
+                href="https://github.com/RanceProtocol" target="_blank" rel="noreferrer"
                 className="text-white hover:text-gray-900 dark:hover:text-white"
               >
                 <svg
@@ -182,9 +179,10 @@ const Footer1 = () => {
                   ></path>
                 </svg>
               </a>
-
-              <a
-                href="/"
+              
+                            {/* Medium */}
+                <a
+                href="https://ranceprotocol.medium.com" target="_blank" rel="noreferrer"
                 className="text-white hover:text-gray-900 dark:hover:text-white"
               >
                 <svg
@@ -195,11 +193,14 @@ const Footer1 = () => {
                 >
                   <path
                     fillRule="evenodd"
-                    d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10c5.51 0 10-4.48 10-10S17.51 2 12 2zm6.605 4.61a8.502 8.502 0 011.93 5.314c-.281-.054-3.101-.629-5.943-.271-.065-.141-.12-.293-.184-.445a25.416 25.416 0 00-.564-1.236c3.145-1.28 4.577-3.124 4.761-3.362zM12 3.475c2.17 0 4.154.813 5.662 2.148-.152.216-1.443 1.941-4.48 3.08-1.399-2.57-2.95-4.675-3.189-5A8.687 8.687 0 0112 3.475zm-3.633.803a53.896 53.896 0 013.167 4.935c-3.992 1.063-7.517 1.04-7.896 1.04a8.581 8.581 0 014.729-5.975zM3.453 12.01v-.26c.37.01 4.512.065 8.775-1.215.25.477.477.965.694 1.453-.109.033-.228.065-.336.098-4.404 1.42-6.747 5.303-6.942 5.629a8.522 8.522 0 01-2.19-5.705zM12 20.547a8.482 8.482 0 01-5.239-1.8c.152-.315 1.888-3.656 6.703-5.337.022-.01.033-.01.054-.022a35.318 35.318 0 011.823 6.475 8.4 8.4 0 01-3.341.684zm4.761-1.465c-.086-.52-.542-3.015-1.659-6.084 2.679-.423 5.022.271 5.314.369a8.468 8.468 0 01-3.655 5.715z"
+                    d="M12 0c-6.626 0-12 5.372-12 12 0 6.627 5.374 12 12 12 6.627 0 12-5.373 12-12 0-6.628-5.373-12-12-12zm6.974 17.557v-.235l-1.092-1.072c-.096-.073-.144-.194-.124-.313v-7.874c-.02-.119.028-.24.124-.313l1.118-1.072v-.235h-3.869l-2.758 6.88-3.138-6.88h-4.059v.235l1.308 1.575c.128.115.194.285.176.457v6.188c.038.223-.032.451-.189.614l-1.471 1.784v.235h4.17v-.235l-1.471-1.784c-.158-.163-.233-.389-.202-.614v-5.352l3.66 7.985h.425l3.143-7.985v6.365c0 .17 0 .202-.111.313l-1.13 1.098v.235h5.49z"
                     clipRule="evenodd"
                   ></path>
                 </svg>
               </a>
+             
+ 
+
             </div>
           </div>
         </footer>

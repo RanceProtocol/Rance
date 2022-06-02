@@ -233,7 +233,7 @@ const More = () => {
                 href="/get-started"
                 className="flex items-center space-x-1 py-4 px-7 mt-5 bg-lightBlue text-white rounded-full baseline hover:bg-brightRedLight md:mt-0"
               >
-                Learn More{" "}
+                Whitepaper{" "}
               </a>
             </div>
           </div>
