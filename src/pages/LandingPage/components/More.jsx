@@ -7,6 +7,7 @@ import ranceanimated from "../../../assets/ranceanimated.gif";
 // import Table from "../../../assets/Table.png";
 // import Chart from "../../../assets/Chart.png";
 import download from "../../../assets/download.png";
+import Whitepaper from "../../../assets/Rance-Protocol-WhitePaper.pdf";
 import { BsArrowRightCircleFill } from "react-icons/bs";
 // import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 
@@ -230,10 +231,10 @@ const More = () => {
 
             <div className="flex flex-col items-center justify-center space-x-5 md:justify-start md:flex-row">
               <a
-                href="/get-started"
+                href={Whitepaper} 
                 className="flex items-center space-x-1 py-4 px-7 mt-5 bg-lightBlue text-white rounded-full baseline hover:bg-brightRedLight md:mt-0"
               >
-                Whitepaper{" "}
+                Whitepaper{""}
               </a>
             </div>
           </div>
