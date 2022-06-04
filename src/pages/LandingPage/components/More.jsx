@@ -31,7 +31,7 @@ const More = () => {
           </h1>
 
           <p className="max-w-3xl md:max-w-sm text-center text-white space-y-1 md:text-left">
-          We provide sustainable, reliable and robust insurance services to DeFi users, allowing them to protect their crypto investments and assets against various risks and price drop.
+          We provide sustainable, reliable and robust insurance services to DeFi users, allowing them to protect their crypto investments and assets against various risks and price fluctuations.
           </p>
 
           <div className="flex space-x-4">
@@ -72,7 +72,7 @@ const More = () => {
         </h3>
 
         <p className="max-w-xl text-center text-white text-lg space-y-1 mt-10">
-        We reward users who stake $RANCE tokens with stablecoin revenue sharing generated from the protocol.
+        We reward users who stake $RANCE with stablecoin revenue sharing generated from the protocol.
         </p>
       </div>
 
