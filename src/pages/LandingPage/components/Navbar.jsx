@@ -20,25 +20,25 @@ const Navbar = () => {
         {/* Navbar Links Container */}
         <div className="hidden md:flex space-x-6">
           <a
-            href="/products"
+            href="#product"
             className="not-italic font-normal text-base leading-7 text-white pt-3"
           >
             Product
           </a>
           <a
-            href="/features"
+            href="#features"
             className="not-italic font-normal text-base leading-7 text-white pt-3"
           >
             Features
           </a>
           <a
-            href="/about"
+            href="#/"
             className="not-italic font-normal text-base leading-7 text-white pt-3"
           >
             About
           </a>
           <a
-            href="/partners"
+            href="#partners"
             className="not-italic font-normal text-base leading-7 text-white pt-3"
           >
             Partners
@@ -69,18 +69,25 @@ const Navbar = () => {
             id="menu"
             className={`absolute flex flex-col items-center self-end ${
               isToggle ? "hidden" : ""
-            } py-8 mt-10 space-y-6 rounded-xl font-bold bg-gray-500 sm:w-auto sm:self-center left-6 right-6 drop-shadow-md`}
+            } py-8 mt-10 space-y-6 rounded-xl font-bold bg-lightBrown sm:w-auto sm:self-center left-6 right-6 drop-shadow-md`}
           >
-            <a href="/product" className="text-white hover:text-darkGrayisBlue">
+            <a href="#product" className="text-white hover:text-darkGrayisBlue" onClick={handleToggle}>
               Product
             </a>
-            <a href="/feature" className="text-white hover:text-darkGrayisBlue">
+
+            <a href="#features" className="text-white hover:text-darkGrayisBlue" onClick={handleToggle}>
               Features
             </a>
-            <a href="/about" className="text-white hover:text-darkGrayisBlue">
+
+            <a href="#/" className="text-white hover:text-darkGrayisBlue" onClick={handleToggle}>
               About
             </a>
-            <a href="/careers" className="text-white hover:text-darkGrayisBlue">
+    
+            <a
+              href="#partners"
+              className="text-white hover:text-darkGrayisBlue"
+              onClick={handleToggle}
+            >
               Partners
             </a>
           </div>

@@ -17,7 +17,7 @@ const More = () => {
       <div className="container flex flex-col justify-between items-center md:py-10 md:px-10 mx-auto mt-10 space-y-5 md:space-y-0 md:flex-row">
         {/* Image */}
         <div>
-          <img src={ranceanimated} alt="ranceanimated" />
+          <img src={ranceanimated} alt="ranceanimated" width={600} height={600}/>
         </div>
 
         <div className="hidden px-20 md:flex">
@@ -25,8 +25,8 @@ const More = () => {
         </div>
 
         {/* Content */}
-        <div className="flex flex-col mt-5 mb-32 space-y-5 md:w-1/2">
-          <h1 className="text-white max-w-3xl md:max-w-lg text-3xl font-bold text-center md:text-6xl md:text-left">
+        <div id="product" className="flex flex-col mt-5 mb-32 space-y-5 md:w-1/2">
+          <h1 className="text-white max-w-2xl md:max-w-lg text-3xl font-bold text-center md:text-6xl md:text-left">
           Keep Your Assets Insured
           </h1>
 
@@ -66,7 +66,8 @@ const More = () => {
       </div>
 
       {/* Stake to Earn */}
-      <div id="about" className="flex items-center flex-col py-10 md:py-20">
+      {/* <div id="features about" className="flex items-center flex-col py-10 md:py-20"> */}
+      <div id="features" className="flex items-center flex-col py-10 md:py-20">
         <h3 className="text-white max-w-lg text-3xl font-bold text-center md:text-4xl md:text-left">
           Stake to Earn
         </h3>
@@ -232,7 +233,7 @@ const More = () => {
             <div className="flex flex-col items-center justify-center space-x-5 md:justify-start md:flex-row">
               <a
                 href={Whitepaper} 
-                className="flex items-center space-x-1 py-4 px-7 mt-5 bg-lightBlue text-white rounded-full baseline hover:bg-brightRedLight md:mt-0"
+                className="flex items-center space-x-1 py-4 px-7 mt-5 bg-primaryColor text-white rounded-full baseline hover:bg-brightRedLight md:mt-0"
               >
                 Whitepaper{""}
               </a>
@@ -247,11 +248,12 @@ const More = () => {
       </div>
 
       {/* Partners */}
-      <div>
+      <div id="partners">
         <div className="flex flex-col items-center py-20">
           <h3 className="text-white max-w-4xl text-3xl font-bold text-center md:leading-snug md:text-5xl md:text-center">
             Partners
           </h3> 
+
           <div id="partner-logo">
             <img src={download} alt="partners" />
           </div>
