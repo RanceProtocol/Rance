@@ -31,7 +31,7 @@ const More = () => {
           </h1>
 
           <p className="max-w-3xl md:max-w-sm text-center text-white space-y-1 md:text-left">
-          We provide sustainable, reliable and robust insurance services to DeFi users, allowing them to protect their crypto investments and assets against various risks and price fluctuations.
+          Rance Protocol provides sustainable, reliable and robust insurance services to DeFi users, allowing them to protect their crypto investments and assets against various risks and price fluctuations.
           </p>
 
           <div className="flex space-x-4">
