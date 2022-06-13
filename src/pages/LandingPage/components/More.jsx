@@ -73,7 +73,7 @@ const More = () => {
         </h3>
 
         <p className="max-w-xl text-center text-white text-lg space-y-1 mt-10">
-        We reward users who stake $RANCE with stablecoin revenue sharing generated from the protocol.
+        The Protocol reward users who stake $RANCE with stablecoin revenue sharing generated from the protocol.
         </p>
       </div>
 
@@ -227,7 +227,7 @@ const More = () => {
             </h1>
 
             <p className="max-w-sm text-center text-white space-y-1 md:text-left">
-            Stabilise the crypto coin you hodl at your desired price with up to 2 years Insurance protection.
+            Users can stabilise the crypto coin they hodl at their desired price with up to 2 years Insurance protection.
             </p>
 
             <div className="flex flex-col items-center justify-center space-x-5 md:justify-start md:flex-row">
