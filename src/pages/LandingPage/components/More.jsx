@@ -73,7 +73,7 @@ const More = () => {
         </h3>
 
         <p className="max-w-xl text-center text-white text-lg space-y-1 mt-10">
-        The Protocol reward users who stake $RANCE with stablecoin revenue sharing generated from the protocol.
+        The Protocol reward users who stake $RANCE with stablecoin revenue sharing generated from the platform.
         </p>
       </div>
 
