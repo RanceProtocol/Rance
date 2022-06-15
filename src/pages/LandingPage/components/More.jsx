@@ -7,7 +7,9 @@ import ranceanimated from "../../../assets/ranceanimated.gif";
 // import Table from "../../../assets/Table.png";
 // import Chart from "../../../assets/Chart.png";
 import download from "../../../assets/download.png";
-import Whitepaper from "../../../assets/Rance-Protocol-WhitePaper.pdf";
+// import Whitepaper from "../../../assets/WhitePaper.pdf";
+// import PDF from "../../../Rance-Protocol-WhitePaper.pdf";
+// import Whitepaper from "../../../assets/Rance-Protocol-WhitePaper.pdf";
 import { BsArrowRightCircleFill } from "react-icons/bs";
 // import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 
@@ -17,7 +19,12 @@ const More = () => {
       <div className="container flex flex-col justify-between items-center md:py-10 md:px-10 mx-auto mt-10 space-y-5 md:space-y-0 md:flex-row">
         {/* Image */}
         <div>
-          <img src={ranceanimated} alt="ranceanimated" width={600} height={600}/>
+          <img
+            src={ranceanimated}
+            alt="ranceanimated"
+            width={600}
+            height={600}
+          />
         </div>
 
         <div className="hidden px-20 md:flex">
@@ -25,13 +32,18 @@ const More = () => {
         </div>
 
         {/* Content */}
-        <div id="product" className="flex flex-col mt-5 mb-32 space-y-5 md:w-1/2">
+        <div
+          id="product"
+          className="flex flex-col mt-5 mb-32 space-y-5 md:w-1/2"
+        >
           <h1 className="text-white max-w-2xl md:max-w-lg text-3xl font-bold text-center md:text-6xl md:text-left">
-          Keep Your Assets Insured
+            Keep Your Assets Insured
           </h1>
 
           <p className="max-w-3xl md:max-w-sm text-center text-white space-y-1 md:text-left">
-          Rance Protocol provides sustainable, reliable and robust insurance services to DeFi users, allowing them to protect their crypto investments and assets against various risks and price fluctuations.
+            Rance Protocol provides sustainable, reliable and robust insurance
+            services to DeFi users, allowing them to protect their crypto
+            investments and assets against various risks and price fluctuations.
           </p>
 
           <div className="flex space-x-4">
@@ -42,7 +54,7 @@ const More = () => {
           <div className="flex space-x-4">
             <BsArrowRightCircleFill className="text-primaryColor mt-1" />
             <p className="text-white">Bear Market Crash </p>
-            </div>
+          </div>
 
           <div className="flex space-x-4">
             <BsArrowRightCircleFill className="text-primaryColor mt-1" />
@@ -73,7 +85,8 @@ const More = () => {
         </h3>
 
         <p className="max-w-xl text-center text-white text-lg space-y-1 mt-10">
-        The Protocol reward users who stake $RANCE with stablecoin revenue sharing generated from the platform.
+          The Protocol reward users who stake $RANCE with stablecoin revenue
+          sharing generated from the platform.
         </p>
       </div>
 
@@ -227,12 +240,15 @@ const More = () => {
             </h1>
 
             <p className="max-w-sm text-center text-white space-y-1 md:text-left">
-            Users can stabilise the crypto coin they hodl at their desired price with up to 2 years Insurance protection.
+              Users can stabilise the crypto coin they hodl at their desired
+              price with up to 2 years Insurance protection.
             </p>
 
             <div className="flex flex-col items-center justify-center space-x-5 md:justify-start md:flex-row">
               <a
-                href={Whitepaper} 
+                href="https:/ranceprotocol.com/images/Rance-Protocol-WhitePaper.pdf"
+                target="_blank"
+                rel="noreferrer"
                 className="flex items-center space-x-1 py-4 px-7 mt-5 bg-primaryColor text-white rounded-full baseline hover:bg-brightRedLight md:mt-0"
               >
                 Whitepaper{""}
@@ -252,7 +268,7 @@ const More = () => {
         <div className="flex flex-col items-center py-20">
           <h3 className="text-white max-w-4xl text-3xl font-bold text-center md:leading-snug md:text-5xl md:text-center">
             Partners
-          </h3> 
+          </h3>
 
           <div id="partner-logo">
             <img src={download} alt="partners" />
