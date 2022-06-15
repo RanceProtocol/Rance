@@ -246,7 +246,7 @@ const More = () => {
 
             <div className="flex flex-col items-center justify-center space-x-5 md:justify-start md:flex-row">
               <a
-                href="https:/ranceprotocol.com/images/Rance-Protocol-WhitePaper.pdf"
+                href="/images/Rance-Protocol-WhitePaper.pdf"
                 target="_blank"
                 rel="noreferrer"
                 className="flex items-center space-x-1 py-4 px-7 mt-5 bg-primaryColor text-white rounded-full baseline hover:bg-brightRedLight md:mt-0"
