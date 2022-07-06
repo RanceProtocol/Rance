@@ -20,7 +20,7 @@ const Hero = () => {
 
         <div className="flex flex-col justify-center space-y-3 md:space-x-5 md:space-y-0 md:justify-start md:flex-row">
           <a
-            href="/get-started"
+            href="#"
             className="flex items-center justify-around px-0 py-4 bg-primaryColor text-white rounded-full baseline md:justify-evenly md:px-7 md:space-x-1 md:mt-0"
           >
             Buy Insurance{" "}
@@ -31,7 +31,7 @@ const Hero = () => {
           </a>
 
           <a
-            href="/get-started"
+            href="#"
             className="flex items-center justify-around px-0 py-4 border-solid border-2 border-primaryColor text-white rounded-full baseline md:justify-evenly md:px-7 md:space-x-1 md:mt-0"
           >
             Get $RANCE{" "}

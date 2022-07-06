@@ -68,7 +68,7 @@ const More = () => {
 
           <div className="py-6">
             <a
-              href="/test"
+              href="#"
               className="p-5 bg-primaryColor text-white rounded-full px-6"
             >
               Get Covered
