@@ -1,6 +1,8 @@
 import React from "react";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import HeroGif from "../../../assets/heroanime.gif";
+import BNBChainIcon from "../../../assets/bnbchain.png";
+import CronoChainIcon from "../../../assets/cronosicon.png";
 
 const Hero = () => {
   return (
@@ -15,32 +17,49 @@ const Hero = () => {
         </h1>
 
         <p className="max-w-lg text-center text-white space-y-1 py-1 md:text-left">
-        Rance Protocol is a decentralized price shield insurance provider offering long-term crypto holders the insurance of the major price swing of their holdings.
+          Rance Protocol is a decentralized price shield insurance provider
+          offering long-term crypto holders the insurance of the major price
+          swing of their holdings.
         </p>
 
-        <div className="flex flex-col justify-center space-y-3 md:space-x-5 md:space-y-0 md:justify-start md:flex-row">
+        <div className="flex flex-col justify-center space-y-3 md:space-x-1 md:space-y-0 md:justify-start md:flex-row">
           <a
+            //eslint-disable-nextline
             href="#"
             className="flex items-center justify-around px-0 py-4 bg-primaryColor text-white rounded-full baseline md:justify-evenly md:px-7 md:space-x-1 md:mt-0"
           >
-            Buy Insurance{" "}
-            <MdOutlineKeyboardArrowRight
+            Buy Insurance on Cronos Chain{" "}
+            <img
+              src={CronoChainIcon}
               className="bg-white text-primaryColor rounded-full ml-5 text-lg"
               style={{ fontSize: "30px" }}
             />
           </a>
 
           <a
+            //eslint-disable-nextline
             href="#"
-            className="flex items-center justify-around px-0 py-4 border-solid border-2 border-primaryColor text-white rounded-full baseline md:justify-evenly md:px-7 md:space-x-1 md:mt-0"
+            className="flex items-center justify-around px-0 py-4 bg-primaryColor text-white rounded-full baseline md:justify-evenly md:px-7 md:space-x-1 md:mt-0"
           >
-            Get $RANCE{" "}
-            <MdOutlineKeyboardArrowRight
-              className="bg-primaryColor text-white rounded-full ml-5 text-lg"
+            Buy Insurance on BNBChain{" "}
+            <img
+              src={BNBChainIcon}
+              className="bg-white text-primaryColor rounded-full ml-5 text-lg"
               style={{ fontSize: "30px" }}
             />
           </a>
         </div>
+
+        <a
+          href="#"
+          className="flex items-center justify-between w-96 px-4 py-4 border-solid border-2 border-primaryColor text-white rounded-full baseline"
+        >
+          Get $RANCE{" "}
+          <MdOutlineKeyboardArrowRight
+            className="bg-primaryColor text-white rounded-full ml-5 text-lg md:ml-0"
+            style={{ fontSize: "30px" }}
+          />
+        </a>
       </div>
 
       {/* Right Content -> Image */}
