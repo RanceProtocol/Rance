@@ -52,7 +52,7 @@ const Hero = () => {
 
         <a
           href="#"
-          className="flex items-center justify-between w-96 px-4 py-4 border-solid border-2 border-primaryColor text-white rounded-full baseline"
+          className="flex items-center justify-between w-96 px-8 py-4 border-solid border-2 border-primaryColor text-white rounded-full baseline"
         >
           Get $RANCE{" "}
           <MdOutlineKeyboardArrowRight
