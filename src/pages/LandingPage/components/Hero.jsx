@@ -3,6 +3,7 @@ import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import HeroGif from "../../../assets/heroanime.gif";
 import BNBChainIcon from "../../../assets/bnbchain.png";
 import CronoChainIcon from "../../../assets/cronosicon.png";
+import PolygonIcon from "../../../assets/Polygon.png";
 
 const Hero = () => {
   return (
@@ -37,7 +38,6 @@ const Hero = () => {
           </a>
 
           <a
-            //eslint-disable-nextline
             href="#"
             className="flex items-center justify-around px-0 py-4 bg-primaryColor text-white rounded-full baseline md:justify-evenly md:px-7 md:space-x-1 md:mt-0"
           >
@@ -49,7 +49,17 @@ const Hero = () => {
             />
           </a>
         </div>
-
+        <a
+          href="#"
+          className="flex items-center justify-around px-0 py-4 bg-primaryColor text-white rounded-full baseline md:justify-evenly md:px-7 md:space-x-1 md:mt-0"
+        >
+          Buy Insurance on Polygon{" "}
+          <img
+            src={PolygonIcon}
+            className="bg-white text-primaryColor rounded-full ml-5 text-lg"
+            style={{ fontSize: "30px" }}
+          />
+        </a>
         <a
           href="#"
           className="flex items-center justify-between w-96 px-8 py-4 border-solid border-2 border-primaryColor text-white rounded-full baseline"
