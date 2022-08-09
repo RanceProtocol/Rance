@@ -29,7 +29,7 @@ const Hero = () => {
             href="#"
             className="flex items-center justify-around px-0 py-4 bg-primaryColor text-white rounded-full baseline md:justify-evenly md:px-7 md:space-x-1 md:mt-0"
           >
-            Insure on Cronos Chain{" "}
+            Insure on Cronos Chain&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
             <img
               src={CronoChainIcon}
               className="bg-white text-primaryColor rounded-full ml-5 text-lg"
@@ -41,7 +41,8 @@ const Hero = () => {
             href="#"
             className="flex items-center justify-around px-0 py-4 bg-primaryColor text-white rounded-full baseline md:justify-evenly md:px-7 md:space-x-1 md:mt-0"
           >
-            Insure on BNBChain{" "}
+            Insure on BNBChain &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;{" "}
             <img
               src={BNBChainIcon}
               className="bg-white text-primaryColor rounded-full ml-5 text-lg"
@@ -53,7 +54,8 @@ const Hero = () => {
           href="#"
           className="flex items-center justify-around px-0 py-4 bg-primaryColor text-white rounded-full baseline md:justify-evenly md:px-7 md:space-x-1 md:mt-0"
         >
-          Insure on Polygon{" "}
+          Insure on Polygon
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
           <img
             src={PolygonIcon}
             className="bg-white text-primaryColor rounded-full ml-5 text-lg"
