@@ -15,7 +15,7 @@ const About = () => {
           />
 
           <div className="flex flex-col">
-            <h1 className="text-white text-3xl font-extrabold">16</h1>
+            <h1 className="text-white text-3xl font-extrabold">18</h1>
             <p className="text-white">Coins Protected</p>
           </div>
         </div>
@@ -41,7 +41,7 @@ const About = () => {
           />
 
           <div className="flex flex-col">
-            <h1 className="text-white text-3xl font-extrabold">2</h1>
+            <h1 className="text-white text-3xl font-extrabold">3</h1>
             <p className="text-white">Public Chains Covered</p>
           </div>
         </div>

@@ -29,7 +29,7 @@ const Hero = () => {
             href="#"
             className="flex items-center justify-around px-0 py-4 bg-primaryColor text-white rounded-full baseline md:justify-evenly md:px-7 md:space-x-1 md:mt-0"
           >
-            Buy Insurance on Cronos Chain{" "}
+            Insure on Cronos Chain{" "}
             <img
               src={CronoChainIcon}
               className="bg-white text-primaryColor rounded-full ml-5 text-lg"
@@ -41,7 +41,7 @@ const Hero = () => {
             href="#"
             className="flex items-center justify-around px-0 py-4 bg-primaryColor text-white rounded-full baseline md:justify-evenly md:px-7 md:space-x-1 md:mt-0"
           >
-            Buy Insurance on BNBChain{" "}
+            Insure on BNBChain{" "}
             <img
               src={BNBChainIcon}
               className="bg-white text-primaryColor rounded-full ml-5 text-lg"
@@ -53,7 +53,7 @@ const Hero = () => {
           href="#"
           className="flex items-center justify-around px-0 py-4 bg-primaryColor text-white rounded-full baseline md:justify-evenly md:px-7 md:space-x-1 md:mt-0"
         >
-          Buy Insurance on Polygon{" "}
+          Insure on Polygon{" "}
           <img
             src={PolygonIcon}
             className="bg-white text-primaryColor rounded-full ml-5 text-lg"
