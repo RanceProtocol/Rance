@@ -32,12 +32,6 @@ const Navbar = () => {
             Features
           </a>
           <a
-            href="#/"
-            className="not-italic font-normal text-base leading-7 text-white pt-3"
-          >
-            About
-          </a>
-          <a
             href="#partners"
             className="not-italic font-normal text-base leading-7 text-white pt-3"
           >
@@ -46,10 +40,18 @@ const Navbar = () => {
 
           {/* Button */}
           <a
+            href="https://ranceprotocol.com/images/Rance-Protocol-WhitePaper.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hidden md:block p-4 px-10 bg-primaryColor text-white rounded-full baseline"
+          >
+            Whitepaper
+          </a>
+          <a
             href="/buy-insurance"
             className="hidden md:block p-4 px-10 bg-primaryColor text-white rounded-full baseline"
           >
-            Buy Insurance
+            Launch Dapp
           </a>
         </div>
 
@@ -71,24 +73,46 @@ const Navbar = () => {
               isToggle ? "hidden" : ""
             } py-8 mt-10 space-y-6 rounded-xl font-bold bg-lightBrown sm:w-auto sm:self-center left-6 right-6 drop-shadow-md`}
           >
-            <a href="#product" className="text-white hover:text-darkGrayisBlue" onClick={handleToggle}>
+            <a
+              href="#product"
+              className="text-white hover:text-darkGrayisBlue"
+              onClick={handleToggle}
+            >
               Product
             </a>
 
-            <a href="#features" className="text-white hover:text-darkGrayisBlue" onClick={handleToggle}>
+            <a
+              href="#features"
+              className="text-white hover:text-darkGrayisBlue"
+              onClick={handleToggle}
+            >
               Features
             </a>
 
-            <a href="#/" className="text-white hover:text-darkGrayisBlue" onClick={handleToggle}>
-              About
-            </a>
-    
             <a
               href="#partners"
               className="text-white hover:text-darkGrayisBlue"
               onClick={handleToggle}
             >
               Partners
+            </a>
+
+            <a
+              href="https://ranceprotocol.com/images/Rance-Protocol-WhitePaper.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="md:block p-4 px-10 bg-primaryColor text-white rounded-full baseline"
+              onClick={handleToggle}
+            >
+              Whitepaper
+            </a>
+
+            <a
+              href="#partners"
+              className="md:block p-4 px-10 bg-primaryColor text-white rounded-full baseline"
+              onClick={handleToggle}
+            >
+              Launch DApp
             </a>
           </div>
         </div>
