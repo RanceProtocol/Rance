@@ -4,6 +4,7 @@ import HeroGif from "../../../assets/heroanime.gif";
 import BNBChainIcon from "../../../assets/bnbchain.png";
 import CronoChainIcon from "../../../assets/cronosicon.png";
 import PolygonIcon from "../../../assets/Polygon.png";
+import CoinsZoom from "../../../assets/coinszoom.gif";
 
 const Hero = () => {
   return (
@@ -72,6 +73,9 @@ const Hero = () => {
             style={{ fontSize: "30px" }}
           />
         </a>
+        <div>
+          <img src={CoinsZoom} alt="coin-zoom" />
+        </div>
       </div>
 
       {/* Right Content -> Image */}
