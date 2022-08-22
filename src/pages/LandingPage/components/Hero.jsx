@@ -77,10 +77,9 @@ const Hero = () => {
           <img src={CoinsZoom} alt="coin-zoom" />
         </div>
       </div>
-
       {/* Right Content -> Image */}
       <div>
-        <img src={HeroGif} alt="coin-gif" />
+        <img src={HeroGif} alt="coin-gif" className="zoom-in-zoom-out" />
       </div>
     </div>
   );
