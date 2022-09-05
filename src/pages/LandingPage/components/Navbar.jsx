@@ -108,7 +108,7 @@ const Navbar = () => {
             </a>
 
             <a
-              href="#partners"
+              href="https://bnbchain.ranceprotocol.com/"
               className="md:block p-4 px-10 bg-primaryColor text-white rounded-full baseline"
               onClick={handleToggle}
             >

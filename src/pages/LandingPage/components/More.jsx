@@ -68,7 +68,7 @@ const More = () => {
 
           <div className="py-6">
             <a
-              href="#"
+              href="https://bnbchain.ranceprotocol.com/"
               className="p-5 bg-primaryColor text-white rounded-full px-6"
             >
               Get Covered
