@@ -104,7 +104,7 @@ const Footer1 = () => {
             <p className="max-w-5xl text-white md:text-lg text-center">
               ©2022{" "}
               <a
-                href="https://flowbite.com"
+                href="https://ranceprotocol.com"
                 target="_blank"
                 className="hover:underline"
                 rel="noreferrer"
@@ -114,21 +114,32 @@ const Footer1 = () => {
               All rights reserved
             </p>
 
-            <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
-             {/* telegram */}
-             <a
-                href="https://t.me/RanceProtocol" target="_blank" rel="noreferrer"
+            <div className="flex mt-4 space-x-4 sm:justify-center sm:mt-0">
+              {/* telegram */}
+              <a
+                href="https://t.me/RanceProtocol"
+                target="_blank"
+                rel="noreferrer"
                 className="text-white hover:text-gray-900 dark:hover:text-white"
               >
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" className="bi bi-telegram" viewBox="0 0 16 16">
-                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z"/>
-              </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  fill="currentColor"
+                  className="bi bi-telegram"
+                  viewBox="0 0 16 16"
+                >
+                  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z" />
+                </svg>
               </a>
 
               {/* Twitter */}
               <a
-                href="https://twitter.com/RanceProtocol" 
-                className="text-white hover:text-gray-900 dark:hover:text-white" target="_blank" rel="noreferrer"
+                href="https://twitter.com/RanceProtocol"
+                className="text-white hover:text-gray-900 dark:hover:text-white"
+                target="_blank"
+                rel="noreferrer"
               >
                 <svg
                   className="w-6 h-6"
@@ -142,7 +153,9 @@ const Footer1 = () => {
 
               {/* Instagram */}
               <a
-                href="https://instagram.com/ranceprotocol" target="_blank" rel="noreferrer"
+                href="https://instagram.com/ranceprotocol"
+                target="_blank"
+                rel="noreferrer"
                 className="text-white hover:text-gray-900 dark:hover:text-white"
               >
                 <svg
@@ -159,11 +172,53 @@ const Footer1 = () => {
                 </svg>
               </a>
 
+              {/* Youtube */}
+              <a
+                href="https://youtube.com/channel/UCIWExnw7Glhi84zs6brkKvQ"
+                target="_blank"
+                rel="noreferrer"
+                className="text-white hover:text-gray-900 dark:hover:text-white"
+              >
+                <svg
+                  className="w-6 h-6"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"
+                    clipRule="evenodd"
+                  ></path>
+                </svg>
+              </a>
 
-              
+              {/* email */}
+              <a
+                href="mailto:hello@ranceprotocol.com"
+                target="_blank"
+                rel="noreferrer"
+                className="text-white hover:text-gray-900 dark:hover:text-white"
+              >
+                <svg
+                  className="w-6 h-6"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M12 12.713l-11.985-9.713h23.971l-11.986 9.713zm-5.425-1.822l-6.575-5.329v12.501l6.575-7.172zm10.85 0l6.575 7.172v-12.501l-6.575 5.329zm-1.557 1.261l-3.868 3.135-3.868-3.135-8.11 8.848h23.956l-8.11-8.848z"
+                    clipRule="evenodd"
+                  ></path>
+                </svg>
+              </a>
+
               {/* Github */}
               <a
-                href="https://github.com/RanceProtocol" target="_blank" rel="noreferrer"
+                href="https://github.com/RanceProtocol"
+                target="_blank"
+                rel="noreferrer"
                 className="text-white hover:text-gray-900 dark:hover:text-white"
               >
                 <svg
@@ -179,10 +234,12 @@ const Footer1 = () => {
                   ></path>
                 </svg>
               </a>
-              
-                            {/* Medium */}
-                <a
-                href="https://ranceprotocol.medium.com" target="_blank" rel="noreferrer"
+
+              {/* Medium */}
+              <a
+                href="https://ranceprotocol.medium.com"
+                target="_blank"
+                rel="noreferrer"
                 className="text-white hover:text-gray-900 dark:hover:text-white"
               >
                 <svg
@@ -198,9 +255,6 @@ const Footer1 = () => {
                   ></path>
                 </svg>
               </a>
-             
- 
-
             </div>
           </div>
         </footer>
