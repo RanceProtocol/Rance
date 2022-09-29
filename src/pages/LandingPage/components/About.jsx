@@ -15,7 +15,7 @@ const About = () => {
           />
 
           <div className="flex flex-col">
-            <h1 className="text-white text-3xl font-extrabold">20+</h1>
+            <h1 className="text-white text-3xl font-extrabold">50+</h1>
             <p className="text-white">Coins Protected</p>
           </div>
         </div>
