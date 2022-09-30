@@ -23,22 +23,8 @@ function Hero() {
           offering long-term crypto holders the insurance of the major price
           swing of their holdings.
         </p>
-
+        {/* bnb chain */}
         <div className="flex flex-col justify-center space-y-5 md:space-x-4 md:space-y-0 md:justify-start md:flex-row">
-          {/* eslint-disable-nextline */}
-          <a
-            href="https://cronos.ranceprotocol.com/"
-            className="flex items-center justify-around px-2 py-4 bg-primaryColor text-white rounded-full baseline md:justify-evenly md:px-7 md:space-x-1 md:mt-0"
-          >
-            Insure on Cronos Chain&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
-            <img
-              src={CronoChainIcon}
-              className="bg-white text-primaryColor rounded-full ml-5 text-lg"
-              style={{ fontSize: "30px" }}
-              alt=""
-            />
-          </a>
-
           <a
             href="https://bnbchain.ranceprotocol.com/"
             className="flex items-center justify-around px-2 py-4 bg-primaryColor text-white rounded-full baseline md:justify-evenly md:px-7 md:space-x-1 md:mt-0"
@@ -54,6 +40,7 @@ function Hero() {
           </a>
         </div>
 
+        {/* Polygon */}
         <div className="flex flex-col justify-center space-y-5 md:space-x-4 md:space-y-0 md:justify-start md:flex-row">
           {/* eslint-disable-nextline */}
           <a
@@ -64,6 +51,23 @@ function Hero() {
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
             <img
               src={PolygonIcon}
+              className="bg-white text-primaryColor rounded-full ml-5 text-lg"
+              style={{ fontSize: "30px" }}
+              alt=""
+            />
+          </a>
+        </div>
+
+        {/* Cronos */}
+        <div className="flex flex-col justify-center space-y-5 md:space-x-4 md:space-y-0 md:justify-start md:flex-row">
+          {/* eslint-disable-nextline */}
+          <a
+            href="https://cronos.ranceprotocol.com/"
+            className="flex items-center justify-around px-2 py-4 bg-primaryColor text-white rounded-full baseline md:justify-evenly md:px-7 md:space-x-1 md:mt-0"
+          >
+            Insure on Cronos Chain&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            <img
+              src={CronoChainIcon}
               className="bg-white text-primaryColor rounded-full ml-5 text-lg"
               style={{ fontSize: "30px" }}
               alt=""
