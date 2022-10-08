@@ -93,7 +93,7 @@ function Hero() {
             />
           </a>
 
-          <a
+          {/* <a
             href="#/"
             className="flex items-center justify-around px-2 py-4 border-solid border-2 border-primaryColor text-white rounded-full baseline md:justify-evenly md:px-7 md:space-x-1 md:mt-0"
           >
@@ -103,7 +103,7 @@ function Hero() {
               className="bg-primaryColor text-white rounded-full ml-5 text-lg md:ml-28"
               style={{ fontSize: "30px" }}
             />
-          </a>
+          </a> */}
         </div>
 
         <div>

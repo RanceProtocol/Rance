@@ -77,16 +77,16 @@ const More = () => {
         </div>
       </div>
 
-      {/* Stake to Earn */}
+      {/* Invest Smart */}
       {/* <div id="features about" className="flex items-center flex-col py-10 md:py-20"> */}
       <div id="features" className="flex items-center flex-col py-10 md:py-20">
         <h3 className="text-white max-w-lg text-3xl font-bold text-center md:text-4xl md:text-left">
-          Stake to Earn
+          Invest Smart
         </h3>
 
         <p className="max-w-xl text-center text-white text-lg space-y-1 mt-10">
-          The Protocol reward users who stake $RANCE with stablecoin revenue
-          sharing generated from the platform.
+          Users can stabilise the crypto coin they hodl at their desired price
+          with up to 2 years Insurance protection.
         </p>
       </div>
 
@@ -231,18 +231,26 @@ const More = () => {
           </h3>
         </div> */}
 
-        {/* Invest Smart */}
+        {/* Refer to earn */}
         <div className="container flex flex-col-reverse items-center md:px-40 md:py-17 mx-auto space-y-0 md:space-y-0 md:flex-row">
           {/* Left Content */}
           <div className="flex flex-col mt-5 md:mt-5 md:mb-32 space-y-5 md:w-1/2">
             <h1 className="text-white max-w-sm text-3xl font-bold text-center md:leading-snug md:text-4xl md:text-left">
-              Invest Smart
+              Refer to Earn
             </h1>
-
             <p className="max-w-sm text-center text-white space-y-1 md:text-left">
-              Users can stabilise the crypto coin they hodl at their desired
-              price with up to 2 years Insurance protection.
+              Users can refer their friends to buy coins on the Protocol and get
+              5% of the worth of coins they buy instantly.
             </p>
+            {/* stake to earn */}
+            {/* <br /> <br />
+            <h1 className="text-white max-w-sm text-3xl font-bold text-center md:leading-snug md:text-4xl md:text-left">
+              Stake to Earn{" "}
+            </h1>
+            <p className="max-w-sm text-center text-white space-y-1 md:text-left">
+              The Protocol reward users who stake $RANCE with stablecoin revenue
+              sharing generated from the platform.
+            </p> */}
 
             <div className="flex flex-col items-center justify-center space-x-5 md:justify-start md:flex-row">
               <a
