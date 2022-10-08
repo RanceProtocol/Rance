@@ -1,5 +1,5 @@
 import React from "react";
-import { FaUser } from "react-icons/fa";
+// import { FaUser } from "react-icons/fa";
 import { BiWorld } from "react-icons/bi";
 import { GrGraphQl } from "react-icons/gr";
 
@@ -21,7 +21,7 @@ const About = () => {
         </div>
 
         {/* Second Item */}
-        <div className="flex items-center space-x-4">
+        {/* <div className="flex items-center space-x-4">
           <FaUser
             className="bg-gray-300 bg-opacity-25 text-primaryColor p-3 rounded-full"
             size={60}
@@ -31,7 +31,7 @@ const About = () => {
             <h1 className="text-white text-3xl font-extrabold">1M+</h1>
             <p className="text-white">Expected Global Users</p>
           </div>
-        </div>
+        </div> */}
 
         {/* Third Item */}
         <div className="flex items-center space-x-4">
