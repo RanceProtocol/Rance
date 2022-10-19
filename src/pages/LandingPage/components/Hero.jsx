@@ -28,6 +28,8 @@ function Hero() {
         <div className="flex flex-col justify-center space-y-5 md:space-x-4 md:space-y-0 md:justify-start md:flex-row">
           <a
             href="https://bnbchain.ranceprotocol.com/"
+            target="_blank"
+            rel="noreferrer"
             className="flex items-center justify-around px-2 py-4 bg-primaryColor text-white rounded-full baseline md:justify-evenly md:px-7 md:space-x-1 md:mt-0"
           >
             Insure on BNBChain &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -46,6 +48,8 @@ function Hero() {
           {/* eslint-disable-nextline */}
           <a
             href="https://polygon.ranceprotocol.com/"
+            target="_blank"
+            rel="noreferrer"
             className="flex items-center justify-around px-2 py-4 bg-primaryColor text-white rounded-full baseline md:justify-evenly md:px-7 md:space-x-1 md:mt-0"
           >
             Insure on Polygon
@@ -63,7 +67,9 @@ function Hero() {
         <div className="flex flex-col justify-center space-y-5 md:space-x-4 md:space-y-0 md:justify-start md:flex-row">
           {/* eslint-disable-nextline */}
           <a
-            href="#"
+            href="https://bitgert.ranceprotocol.com/"
+            target="_blank"
+            rel="noreferrer"
             className="flex items-center justify-around px-2 py-4 bg-primaryColor text-white rounded-full baseline md:justify-evenly md:px-7 md:space-x-1 md:mt-0"
           >
             Insure on Bitgert
@@ -81,6 +87,8 @@ function Hero() {
           {/* eslint-disable-nextline */}
           <a
             href="https://cronos.ranceprotocol.com/"
+            target="_blank"
+            rel="noreferrer"
             className="flex items-center justify-around px-2 py-4 bg-primaryColor text-white rounded-full baseline md:justify-evenly md:px-7 md:space-x-1 md:mt-0"
           >
             Insure on Cronos
