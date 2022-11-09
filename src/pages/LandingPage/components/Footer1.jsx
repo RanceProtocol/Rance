@@ -12,7 +12,7 @@ const Footer1 = () => {
       <div className="bg-lightBrown">
         <footer className="text-gray-600 body-font">
           <div className="flex flex-col flex-wrap py-24 mx-auto md:ml-60 md:items-center lg:items-start md:flex-row md:flex-nowrap">
-            <div className="base-1/2 w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
+            <div className="base-1/2 w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-center">
               <a
                 href="/"
                 className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900"
@@ -21,82 +21,28 @@ const Footer1 = () => {
               </a>
             </div>
 
-            {/* <div className="base-1/2 flex-grow flex flex-wrap justify-center md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
+            <div className="base-1/2 flex-grow flex flex-wrap justify-center md:pl-20 -mb-10 md:mt-0 mt-10 md:text-center text-center">
               <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-                <h2 className="title-font font-bold text-white tracking-widest text-lg mb-3">
-                  Quick Links
+                <h2 className="title-font font-bold text-white text-lg mb-2">
+                  WORK WITH US
                 </h2>
-
-                <nav className="list-none mb-10 space-y-3">
-                  <li>
-                    <a className="text-white hover:text-red-300" href="/">
-                      Home
-                    </a>
-                  </li>
-                  <li>
-                    <a className="text-white hover:text-red-300" href="/">
-                      Products
-                    </a>
-                  </li>
-                  <li>
-                    <a className="text-white hover:text-red-300" href="/">
-                      About
-                    </a>
-                  </li>
-                  
-                  <li>
-                    <a className="text-white hover:text-red-300" href="/">
-                      Features
-                    </a>
-                  </li>
-
-                  <li>
-                    <a className="text-white hover:text-red-300" href="/">
-                      Contact
-                    </a>
-                  </li>
-                </nav>
-              </div>
-
-              <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-                <h2 className="title-font font-bold text-white tracking-widest text-lg mb-3">
-                  Resources
+                <a
+                  className="text-white hover:text-orange-300"
+                  href="mailto:hello@ranceprotocol.com"
+                >
+                  hello@ranceprotocol.com
+                </a>
+                <h2 className="title-font font-bold text-white text-lg mb-2 lamba">
+                  APPLY TO LIST
                 </h2>
-                <nav className="list-none mb-10 space-y-3">
-                  <li>
-                    <a className="text-white hover:text-red-300" href="/">
-                      Download Whitepaper
-                    </a>
-                  </li>
-                  <li>
-                    <a className="text-white hover:text-red-300" href="/">
-                      Second Link
-                    </a>
-                  </li>
-                  <li>
-                    <a className="text-white hover:text-red-300" href="/">
-                      Smart Token
-                    </a>
-                  </li>
-                  <li>
-                    <a className="text-white hover:text-red-300" href="/">
-                      Blockchain Explorer
-                    </a>
-                  </li>
-                  <li>
-                    <a className="text-white hover:text-red-300" href="/">
-                      Crypto API
-                    </a>
-                  </li>
-                  
-                  <li>
-                    <a className="text-white hover:text-red-300" href="/">
-                      Interest
-                    </a>
-                  </li>
-                </nav>
+                <a
+                  className="text-white hover:text-orange-300"
+                  href="mailto:list@ranceprotocol.com"
+                >
+                  list@ranceprotocol.com
+                </a>
               </div>
-            </div> */}
+            </div>
           </div>
 
           {/* Footer Inner */}

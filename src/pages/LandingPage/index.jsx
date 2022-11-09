@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import More from "./components/More";
-import Footer1 from './components/Footer1';
+import Footer1 from "./components/Footer1";
 
 import "./index.css";
 
@@ -17,7 +17,7 @@ const index = () => {
         <About />
         <More />
       </div>
-      <Footer1/>
+      <Footer1 />
     </div>
   );
 };
