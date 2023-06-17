@@ -48,7 +48,7 @@ const Navbar = () => {
             Whitepaper
           </a>
           <a
-            href="/buy-insurance"
+            href="https://bnbchain.ranceprotocol.com/"
             className="hidden md:block p-4 px-10 bg-primaryColor text-white rounded-full baseline"
           >
             Launch Dapp
